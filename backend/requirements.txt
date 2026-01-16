@@ -1,0 +1,46 @@
+# backend/requirements.txt
+
+# Core Django and REST Framework
+Django==4.2.8
+djangorestframework==3.14.0
+django-cors-headers==4.3.1
+django-filter==23.5
+drf-spectacular==0.26.5
+
+# Database - Using PyMySQL instead of mysqlclient for better Docker compatibility
+PyMySQL==1.1.0
+django-mysql==4.13.0
+
+# Cache
+django-redis==5.4.0
+redis==5.0.1
+hiredis==2.2.3
+
+# Production Server
+gunicorn==21.2.0
+whitenoise==6.6.0
+
+# Utilities
+python-decouple==3.8
+python-dateutil==2.8.2
+pytz==2023.3.post1
+
+# Testing
+pytest==7.4.3
+pytest-django==4.7.0
+pytest-cov==4.1.0
+factory-boy==3.3.0
+faker==20.1.0
+
+# Code Quality
+black==23.12.0
+flake8==6.1.0
+isort==5.13.2
+pylint==3.0.3
+
+# Logging and Monitoring
+python-json-logger==2.0.7
+
+# Development
+django-debug-toolbar==4.1.0
+cryptography
